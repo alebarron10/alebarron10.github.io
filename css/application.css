@@ -3,7 +3,7 @@
     background-color: rgb(196, 164, 132);
     background-image: url("");
     background-repeat: repeat;
-    color: rgb(150, 121, 105);
+    color: rgb(92, 64, 51);
 }
 @font-face
 {
@@ -83,7 +83,7 @@ h3
 {
     margin: 10px;
     font-size: 12pt;
-    font-color: white
+    font-color: white;
 }
 #example1
 {
