@@ -24,7 +24,7 @@ h1
 }
 nav
 {
-    border: 1px rgb(92, 64, 51) solid;
+    border: 3px rgb(92, 64, 51) solid;
     text-align: center;
     width: 92vh;
     margin: auto;
@@ -67,7 +67,7 @@ li img
 }
 .side
 {
-    border: 2px rgb(200, 200, 200) solid;
+    border: 2px  rgb(92, 64, 51) solid;
     width: 30vw;
     background-color: rgb(150, 121, 105);
     float: right; rgb(150, 121, 105);
