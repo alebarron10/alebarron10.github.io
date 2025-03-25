@@ -70,7 +70,7 @@ li img
     border: 2px rgb(200, 200, 200) solid;
     width: 30vw;
     background-color: rgb(150, 121, 105);
-    float: right; rgb(196, 164, 132)
+    float: right; rgb(150, 121, 105)
 }
 h3
 {
@@ -83,7 +83,7 @@ h3
 {
     margin: 10px;
     font-size: 12pt;
-    font-color: 
+    font-color: rgb(196, 164, 132)
 }
 #example1
 {
