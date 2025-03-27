@@ -53,7 +53,7 @@ img {
 }
 
 .side {
-    border: 2px rgb(92, 64, 51) solid;
+    border: 2px rgb(200, 200, 200) solid;
     width: 30vw;
     background-color: rgb(92, 64, 51);
     float: right;
