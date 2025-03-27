@@ -50,6 +50,11 @@ li img
 {
     height: 20pt;
 }
+img
+{
+    height: auto;
+    width: auto;
+    
 .side
 {
     border: 2px  rgb(92, 64, 51) solid;
