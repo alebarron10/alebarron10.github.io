@@ -78,20 +78,23 @@ h3 {
 table {
     margin: auto;
     text-align: center;
+    background-color: rgb(92, 64, 51); 
+    color: white; 
 }
 
 th, td {
-    border: 3px rgb(92, 64, 51) solid;
+    border: 3px solid white; 
     font-family: 'Arial', sans-serif;
+    padding: 8px; 
 }
 
 th {
     font-size: 18pt;
+    background-color: rgb(92, 64, 51);  
 }
 
 td {
     font-size: 15pt;
-    color: rgb(200, 200, 200);
 }
 
 td img {
@@ -102,7 +105,6 @@ td:nth-child(2), td:nth-child(3) {
     font-size: 20pt;
     text-align: center;
 }
-
 section {
     margin-left: 25px;
     margin-right: 25px;
