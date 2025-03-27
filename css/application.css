@@ -80,6 +80,8 @@ table {
     text-align: center;
     background-color: rgb(92, 64, 51); 
     color: white; 
+    width: 70%;
+    max-width: 900px;
 }
 
 th, td {
