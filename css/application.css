@@ -75,6 +75,11 @@ h3
 {
     height: 100%;
 }
+table 
+{
+    margin: auto;
+    text-align: center;
+}
 th, td
 {
     border: 3px rgb(92, 64, 51) solid;
