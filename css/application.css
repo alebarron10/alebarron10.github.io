@@ -48,8 +48,8 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 300px;
-    width: 750px;
+    height: auto;
+    width: auto;
 }
 #cookie_display{
     height: 300px;
