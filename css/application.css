@@ -51,6 +51,10 @@ img {
     height: 300px;
     width: 750px;
 }
+#cookie_display{
+    height: 300px;
+    width: auto;
+}
 
 .side {
     border: 2px rgb(200, 200, 200) solid;
@@ -80,7 +84,7 @@ table {
     text-align: center;
     background-color: rgb(92, 64, 51); 
     color: white; 
-    width: 40%;
+    width: 60%;
     max-width: 600px;
 }
 
