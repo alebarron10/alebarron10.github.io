@@ -49,7 +49,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     height: 300px;
-    width: 550px;
+    width: 750px;
 }
 
 .side {
@@ -80,8 +80,8 @@ table {
     text-align: center;
     background-color: rgb(92, 64, 51); 
     color: white; 
-    width: 50%;
-    max-width: 900px;
+    width: 40%;
+    max-width: 600px;
 }
 
 th, td {
