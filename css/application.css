@@ -104,7 +104,9 @@ td {
 }
 
 td img {
-    height: 20pt;
+    height: auto;
+    width: auto;
+    image-rendering: auto;   
 }
 
 td:nth-child(2), td:nth-child(3) {
