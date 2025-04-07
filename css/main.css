@@ -16,10 +16,11 @@ h1, h2, p {
 }
 #amuse-page h1 {
     font-size: 60px;
-    color: rgb(150, 208, 227);
+    color: rgb(65, 126, 145);
 }
 #amuse-page p {
     font-size: 35px;
+    color: rgb(150, 208, 227);
 }
 #index-page ul li {
     text-align: center;
