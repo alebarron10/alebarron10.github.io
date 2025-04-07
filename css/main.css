@@ -6,13 +6,20 @@ h1, h2, p {
     font-weight: normal;
     text-align: center;
 }
-#myself-image {
+#profile-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: auto;
     width: auto;
 } 
+#profile-page h1 {
+    font-size: 60px;
+    color: rgb(145, 89, 65);
+}
+#profile-page p{
+    font-size: 35px;
+    color: rgb(209, 134, 102);
 }
 #amuse-page h1 {
     font-size: 60px;
