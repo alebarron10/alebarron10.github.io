@@ -2,7 +2,7 @@
     --background-color: rgb(211, 211, 211);  
 }
 h1, h2, p {
-    font-style: italic;
+    font-style:'Arial', sans-serif;
     font-weight: normal;
 }
 #myself-image {
