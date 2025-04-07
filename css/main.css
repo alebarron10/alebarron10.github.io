@@ -4,6 +4,7 @@
 h1, h2, p {
     font-style:'Arial', sans-serif;
     font-weight: normal;
+    text-align: center;
 }
 #myself-image {
     display: block;
