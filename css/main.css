@@ -1,34 +1,41 @@
 :root {
     --background-color: rgb(211, 211, 211);  
 }
+
 h1, h2, p {
-    font-style:'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-weight: normal;
     text-align: center;
 }
+
 #profile-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%; 
     height: auto;
-    width: auto;
-} 
+}
+
 #profile-page h1 {
     font-size: 60px;
     color: rgb(145, 89, 65);
 }
-#profile-page p{
+
+#profile-page p {
     font-size: 35px;
     color: rgb(209, 134, 102);
 }
+
 #amuse-page h1 {
     font-size: 60px;
     color: rgb(65, 126, 145);
 }
+
 #amuse-page p {
     font-size: 35px;
     color: rgb(150, 208, 227);
 }
+
 #index-page ul li {
     text-align: center;
 }
