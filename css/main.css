@@ -52,3 +52,8 @@ h1, h2, p {
 #index-page ul {
     padding-left: 0;
 }
+#index-page table {
+    Margin: auto;
+    Display: felx;
+    Justify-center: cente;
+}
