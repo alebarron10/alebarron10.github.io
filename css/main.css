@@ -52,8 +52,3 @@ h1, h2, p {
 #index-page ul {
     padding-left: 0;
 }
-#index-page {
-    padding: 20px;
-    border-radius: 8px; 
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
-}
