@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hiking & Info Search</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1>Hiking & Info Search</h1>
 
+    <form action="https://www.google.com/search" method="GET" target="_blank">
+        <fieldset id="toplevelset">
+            <div>
+                <label for="searchbox">Search</label>
+                <input type="text" name="q" id="searchbox">
+            </div>
+
+            <div>
+                <label for="site">Select a Site</label>
+                <select name="as_sitesearch" id="site">
+                    <option value="">--All Websites--</option>
+                    <option value="https://www.alltrails.com/trail/us/colorado/emerald-lake-trail">Emerald Lake Trail</option>
+                    <option value="https://www.alltrails.com/trail/us/colorado/sky-pond-via-glacier-gorge-trail">Sky Pond via Glacier Gorge Trail</option>
+                    <option value="https://www.alltrails.com/trail/us/colorado/royal-arch-trail">Royal Arch Trail</option>
+                    <option value="https://www.alltrails.com/trail/us/colorado/lake-haiyaha">Lake Haiyaha</option>
+                </select>
+            </div>
+            <div>
+                <label for="lifecycle">Select a Plant Life Cycle (optional)</label>
+                <select name="as_epq" id="lifecycle">
+                    <option value=""></option>
+                    <option value="Annual">Annual</option>
+                    <option value="Perennial">Perennial</option>
+                </select>
+            </div>
+            <div>
+                <label for="zone">Select a Zone (optional)</label>
+                <select name="as_epq" id="zone">
+                    <option value=""></option>
+                    <option value="Zone 3">Zone 3</option>
+                    <option value="Zone 4">Zone 4</option>
+                    <option value="Zone 5">Zone 5</option>
+                    <option value="Zone 6">Zone 6</option>
+                    <option value="Zone 7">Zone 7</option>
+                    <option value="Zone 8">Zone 8</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" name="newwindow" value="1" id="checkwindow">
+                <label for="checkwindow">Open Links in New Window</label>
+            </div>
+            <div>
+                <input type="submit" value="Search">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
