@@ -57,3 +57,12 @@ h1, h2, p {
     Display: felx;
     Justify-center: cente;
 }
+#search-page{
+    text-align: center;
+    list-style: none;
+    background-color: rgb(143, 168, 150); 
+}
+#search-page h1 {
+    font-size: 45px; 
+    color: rgb(55, 66, 58);
+}
