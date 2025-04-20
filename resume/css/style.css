@@ -1,1 +1,153 @@
 
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f3f0;
+  color: #3b2f2f;
+}
+nav {
+  background-color: #5C4033;
+  color: #fff;
+  padding: 15px 20px;
+  text-align: center;
+}
+nav h1 {
+  margin: 0;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 15px 0 0;
+  list-style: none;
+}
+.nav-menu li {
+  margin: 0 12px;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.nav-menu a:hover {
+  background-color: #8B5E3C; 
+}
+header {
+  text-align: center;
+  padding: 30px 20px;
+  background: #fff;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 8px rgba(91, 59, 41, 0.1);
+}
+header img {
+  border-radius: 50%;
+  max-width: 160px;
+  height: auto;
+  border: 4px solid #5C4033;
+}
+header h2 {
+  margin: 12px 0 6px;
+  font-size: 26px;
+  color: #5C4033;
+}
+header p {
+  font-size: 16px;
+  color: #7c5e4a;
+}
+.contact {
+  background: #fff;
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(91, 59, 41, 0.1);
+}
+.contact h2 {
+  margin-top: 0;
+  text-align: center;
+  color: #5C4033;
+}
+.contact p {
+  margin: 8px 0;
+}
+.contact a {
+  color: #8B5E3C;
+  text-decoration: none;
+}
+.contact a:hover {
+  text-decoration: underline;
+}
+section {
+  background: #fff;
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(91, 59, 41, 0.1);
+}
+section h2 {
+  color: #5C4033;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #d4c4b2;
+  padding-bottom: 5px;
+}
+section ul {
+  list-style: square;
+  padding-left: 20px;
+  color: #4a3b2a;
+}
+#education h3 {
+  margin-top: 0;
+  color: #3b2f2f;
+}
+#education ul {
+  margin-bottom: 15px;
+}
+#education p {
+  font-size: 16px;
+  color: #665242;
+}
+#experience h2 {
+  text-align: center;
+}
+.experience-item h3 {
+  font-size: 22px;
+  color: #3b2f2f;
+  margin-bottom: 4px;
+}
+.experience-item h4 {
+  font-size: 18px;
+  color: #665242;
+  margin-top: 0;
+}
+.experience-item p {
+  font-size: 14px;
+  color: #847062;
+}
+.experience-item ul {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: #4a3b2a;
+  padding-left: 20px;
+}
+@media (max-width: 600px) {
+  .nav-menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+  nav h1 {
+    font-size: 24px;
+  }
+  header img {
+    max-width: 120px;
+  }
+}
+
