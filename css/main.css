@@ -10,30 +10,31 @@ h1, h2, p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 300px; 
+    width: 80%; 
+    max-width: 300px;
     height: auto;
 }
 #profile-page h1 {
-    font-size: 60px;
+    font-size: 8vw;
     color: rgb(145, 89, 65);
 }
 #profile-page p {
-    font-size: 35px;
+    font-size: 5vw;
     color: rgb(209, 134, 102);
 }
 #amuse-page h1 {
-    font-size: 40px; 
+    font-size: 7vw; 
     color: rgb(65, 126, 145);
 }
 #amuse-page p {
-    font-size: 20px; 
+    font-size: 4vw; 
     color: rgb(150, 208, 227);
 }
 #amuse-page a {
     display: inline-block; 
     text-decoration: none; 
     color: rgb(65, 126, 145);
-    font-size: 18px;
+    font-size: 4vw;
     margin: 10px 0; 
     text: center;
 }
@@ -56,6 +57,7 @@ h1, h2, p {
     Margin: auto;
     Display: felx;
     Justify-center: cente;
+    width: 90%; 
 }
 .search-page{
     text-align: center;
@@ -65,7 +67,7 @@ h1, h2, p {
     padding: 50px 20px;
 }
 .search-page h1 {
-    font-size: 45px; 
+    font-size: 7vw; 
     color: rgb(55, 66, 58);
     margin-bottom: 30px;
 }
@@ -81,4 +83,13 @@ h1, h2, p {
     border: none;
     padding: 0;
 }
-
+@media (max-widt: 768px) { 
+    #profile-image, #index-image { 
+        width: 90%;
+        max-width: 300px;
+    }
+    .search-page form {
+        width: 90%;
+        padding: 20px;
+    }
+}
