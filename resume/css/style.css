@@ -15,7 +15,7 @@ nav {
 }
 nav h1 {
   margin: 0;
-  font-size: 32px;
+  font-size: 6vw;
   letter-spacing: 1px;
 }
 .nav-menu {
@@ -32,7 +32,7 @@ nav h1 {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 4vw;
   padding: 6px 12px;
   border-radius: 4px;
   transition: background-color 0.3s ease;
@@ -50,17 +50,17 @@ header {
 header img {
   border-radius: 20px; 
   width: 240px;
-  height: auto;
+  height: 100%;
   border: 4px solid #5C4033;
   box-shadow: 0 4px 12px rgba(91, 59, 41, 0.2);
 }
 header h2 {
   margin: 12px 0 6px;
-  font-size: 26px;
+  font-size: 5vw;
   color: #5C4033;
 }
 header p {
-  font-size: 16px;
+  font-size: 4vw;
   color: #7c5e4a;
 }
 .contact {
@@ -74,10 +74,12 @@ header p {
 .contact h2 {
   margin-top: 0;
   text-align: center;
+  font-size: 5vw;
   color: #5C4033;
 }
 .contact p {
   margin: 8px 0;
+  font-size: 4vw;
 }
 .contact a {
   color: #8B5E3C;
@@ -95,6 +97,7 @@ section {
   box-shadow: 0 4px 8px rgba(91, 59, 41, 0.1);
 }
 section h2 {
+  font-size: 5vw;
   color: #5C4033;
   margin-bottom: 15px;
   border-bottom: 2px solid #d4c4b2;
@@ -104,33 +107,35 @@ section ul {
   list-style: square;
   padding-left: 20px;
   color: #4a3b2a;
+  font-size: 4vw;
 }
 #education h3 {
   margin-top: 0;
   color: #3b2f2f;
+  font-size: 4vw;
 }
 #education ul {
   margin-bottom: 15px;
 }
 #education p {
-  font-size: 16px;
+  font-size: 4vw;
   color: #665242;
 }
 #experience h2 {
   text-align: center;
 }
 .experience-item h3 {
-  font-size: 22px;
+  font-size: 4.5vw;
   color: #3b2f2f;
   margin-bottom: 4px;
 }
 .experience-item h4 {
-  font-size: 18px;
+  font-size: 4vw;
   color: #665242;
   margin-top: 0;
 }
 .experience-item p {
-  font-size: 14px;
+  font-size: 3.5vw;
   color: #847062;
 }
 .experience-item ul {
@@ -145,7 +150,7 @@ section ul {
     gap: 10px;
   }
   nav h1 {
-    font-size: 24px;
+    font-size: 7vw;
   }
   header img {
     max-width: 120px;
